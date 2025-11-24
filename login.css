@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url(ayo.jpg) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.6);
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.judul-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-bro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-bro:hover {
+    background-color: #4cae4c;
+}

@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: url(ayo.jpg);
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+    
+}
+
+nav ul li a:hover {
+    background-color: orangered;
+    transition: .5s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 6px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: url(WhatsApp\ Image\ 2024-10-30\ at\ 19.37.27.jpeg);
+    background-color: blanchedalmond;
+    padding: 50px;
+    text-align: center;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.Produk-1 {
+    width: 200px;
+    height: 1fr;
+
+}
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.p-main {
+    font-size: small;
+}
+
+.custemer-servis {
+    color: bisque;
+}
+
+.custemer-servis {
+    font-size: 20px;
+    color: blue;
+    text-align: center;
+    border: 1px solid #481b1b
+}
